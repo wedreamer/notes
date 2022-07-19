@@ -21,6 +21,8 @@
 - mspseak setseak 的实现
 - 装饰器原理
 - 削峰 限流 算法及其原理
+- mysql 主从复制的实现
+- dtm 如何解决 tcc 的相关问题
 
 ## 面试计划安排
 - mysql InnoDB
