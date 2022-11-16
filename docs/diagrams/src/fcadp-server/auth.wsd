@@ -1,0 +1,31 @@
+@startuml
+scale 2
+title Auth login
+(*) --> "传入账号和密码"
+    --> "查账号, 账号可能是 username 也可能是 email"
+if "存在" then
+  -->[true] "用户状态"
+  if "启用" then
+    --> [ture] "启用"
+    if "锁定" then
+        --> [flase] "未锁定"
+        if "密码需要修改" then
+            --> [true] "密码过期"
+            --> [认证失败] (*)
+        else
+            --> [false] "签发 token"
+            --> [认证成功] (*)
+        endif
+    else 
+        --> [true] "被锁定"
+        --> [认证失败] (*)    
+    endif
+  else 
+    --> [false] "禁用"
+    --> [认证失败] (*)
+   endif
+else
+  ->[false] "账号或密码错误"
+  -->[认证失败] (*)
+endif
+@enduml
