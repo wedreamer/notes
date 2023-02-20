@@ -1,0 +1,263 @@
+{
+    "root": {
+        "data": {
+            "id": "cqn134bjj8w0",
+            "created": 1676859510159,
+            "text": "古希腊哲学"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cqn13dvk0jk0",
+                    "created": 1676859530960,
+                    "text": "前苏格拉底哲学",
+                    "layout_mind_offset": {
+                        "x": -73,
+                        "y": -133
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cqn1migiy9s0",
+                            "created": 1676861029855,
+                            "text": "伊奥尼亚学派",
+                            "layout_right_offset": {
+                                "x": 6,
+                                "y": -22
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cqn1o4v184o0",
+                                    "created": 1676861156985,
+                                    "text": "米利都学派"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cqn1oj0vw3s0",
+                                    "created": 1676861187814,
+                                    "text": "爱菲斯学派"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cqn1opjwhw80",
+                            "created": 1676861202025,
+                            "text": "南意大利学派"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cqn1otrhcxk0",
+                                    "created": 1676861211190,
+                                    "text": "毕达哥拉斯学派"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cqn1oxgik9k0",
+                                    "created": 1676861219234,
+                                    "text": "爱利亚学派"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cqn1p5zz7m80",
+                            "created": 1676861237825,
+                            "text": "多元论"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cqn1pbdzvcg0",
+                                    "created": 1676861249557,
+                                    "text": "元素派"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cqn1pgceoww0",
+                                    "created": 1676861260345,
+                                    "text": "原子论"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cqn1pjasdu80",
+                            "created": 1676861266777,
+                            "text": "智者学派"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqn1yg9vgmo0",
+                            "created": 1676861965469,
+                            "text": "其他的划分方式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cqn1ymb78m00",
+                                    "created": 1676861978610,
+                                    "text": "前苏格拉底哲学"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cqn1yrl7s940",
+                                            "created": 1676861990099,
+                                            "text": "传统的自然哲学"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cqn1z26o5b40",
+                                            "created": 1676862013164,
+                                            "text": "智者学派"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cqn1z6f9a0o0",
+                                    "created": 1676862022391,
+                                    "text": "前苏格拉底哲学"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cqn1zaoorp40",
+                                            "created": 1676862031668,
+                                            "text": "宇宙生成论传统（以赫拉克里特为顶峰）"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cqn1zxq7p280",
+                                            "created": 1676862081826,
+                                            "text": "形而上学本体论传统（以巴门尼德为开端）"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cqn20m2ow9s0",
+                                            "created": 1676862134823,
+                                            "text": "智者运动"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cqn13pvr6n40",
+                    "created": 1676859557094,
+                    "text": "古典希腊哲学",
+                    "layout_mind_offset": {
+                        "x": -59,
+                        "y": -224
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cqn1pmxj4000",
+                            "created": 1676861274682,
+                            "text": "苏格拉底"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqn1puvyot40",
+                            "created": 1676861292002,
+                            "text": "柏拉图"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqn1pwmb0qg0",
+                            "created": 1676861295772,
+                            "text": "亚里士多德"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cqn13tsdajk0",
+                    "created": 1676859565596,
+                    "text": "晚期希腊哲学",
+                    "layout_mind_offset": {
+                        "x": 536,
+                        "y": 178
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cqn1q4k0gy80",
+                            "created": 1676861313047,
+                            "text": "伊壁鸠鲁学派"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqn1qqpdtvc0",
+                            "created": 1676861361261,
+                            "text": "斯多葛学派"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqn1r1w4rns0",
+                            "created": 1676861385614,
+                            "text": "怀疑主义"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cqn1r5ckebc0",
+                            "created": 1676861393138,
+                            "text": "新柏拉图主义"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
