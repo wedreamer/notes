@@ -31,11 +31,6 @@ Zookeeper 负责维护和协调 broker。当 Kafka 系统中新增了 broker 或
 - OSR(Out-of-Sync-Replicas)
 与Leader副本同步滞后过多的副本。
 
-## 一条消息的生命周期
-
-
-
-
 ## 环境搭建以及测试
 
 ```bash
