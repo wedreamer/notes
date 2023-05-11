@@ -126,4 +126,68 @@
 30、Next to the abbey, there is a big new church. 
 在修道院旁边有一座大的新的教堂。
 
+# 10
 
+1、It is important to recognize jealousy and to nip it in the bud before it gets out of hand.
+识别嫉妒并在它发展到无法控制之前就把它消灭于萌芽状态，这很重要。
+2、A buddy is a close friend, usually a male friend of a man.
+兄弟是指亲密的朋友，通常都是一个男人的男性朋友。
+3、He told me how much he loved me, I was very moved but refused him.
+他告诉我他有多爱我，我十分感动然后拒绝了他。
+4、If a person or animal butts you, they hit you with the top of their head. 
+如果一个人或动物顶撞你，那就是他们用他们的头 顶撞你。
+5、He burst into the room without knocking. 
+他没敲门就闯进了屋。
+6、The batter executed the bunt perfectly.
+打击手很完美地完成了这次击打。
+7、Buying in bulk is more economical than shopping for small quantities.
+大批采购比少量购买更经济实惠。
+8、They turn their ears away from hard truth and hide in bubbles constructed by their groundless prejudices and self-invented myths.
+他们把耳朵从残酷的事实中移开（他们不听残酷的事实），并且躲在他们毫无根据的偏见和自我编造的神话所构建的泡沫中。
+9、Developers are now proposing to build a hotel on the site.
+开发商们现在正提议在这个地方建造一座宾馆。
+10、If I had been there, I would not have let him bully you.
+如果当时我在场，我就不会让他霸凌你。
+11、The bullet hit him in the chest. 
+子弹击中了他的胸膛。
+12、A bucket list is a list of things you want to do before you die.
+遗愿清单就是你在死前想做的事情的清单。
+13、Please buckle up, we are leaving.
+请系好安全带，我们要出发了。
+14、They will definitely notice the bumper is missing.
+他们肯定会注意到保险杠不见了。
+15、He pressed the button but nothing happened. 
+他按下了按钮但是什么都没有发生。
+16、Your buttocks are the two rounded fleshy parts of your body that you sit on.
+臀部就是你坐着的身体上的两个圆形的肉质部分。
+17、I bought into the popular myth that when I got the new car or the next house, I'd finally be happy.
+我相信了这种大众神话，即只要买上新车或再买栋房子就会最终变得开心。
+18、She spread pieces of bread on the counter and began buttering them.
+她放了几片面包在柜台上，开始给它们涂黄油。
+19、Butterflies and moths are attracted to the wild flowers.
+蝴蝶和飞蛾都被野花所吸引。
+20、Her death will be a heavy burden on Paul.
+她的去世会成为保罗沉重的负担。
+21、You use broad to describe something that includes a large number of different things or people.
+你可以用广泛的来描述包含大量不同的事或人的东西。
+22、The concert will be broadcast live on television and radio.
+音乐会将会通过电视和电台现场直播。
+23、The brochure promised (that) the local food would be superb. 
+这本小册子保证说当地的食物会很赞。
+24、We might say the day of the abacus is gone.
+我们可以说算盘的时代已经过去了。
+25、We are abandoned into vocabulary each early morning at daybreak.
+我们在每天早上破晓的时候沉迷背单词。
+26、You can never abase a person for a little mistake. 
+你绝不可能因为一个小错误而贬低一个人。
+27、Mary looked slightly abashed.
+玛丽看上去有点局促不安。
+28、The storms had abated by the time they rounded Cape Horn.
+暴风在他们到好望角周围时已经减弱了。
+29、The room was light and lofty compared to the basement.
+同地下室比起来这间房间又明亮又高。
+30、Next to the abbey, there is a big new church. 
+在修道院旁边有一座大的新的教堂。
+
+
+# 11
