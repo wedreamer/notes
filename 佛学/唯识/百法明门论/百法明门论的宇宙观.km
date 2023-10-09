@@ -1,0 +1,690 @@
+{
+    "root": {
+        "data": {
+            "id": "cw3kof6u0nc0",
+            "created": 1696820532062,
+            "text": "百法明门论",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cw3kpivwtmo0",
+                    "created": 1696820618473,
+                    "text": "法"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cw3kpivwszs0",
+                            "created": 1696820618473,
+                            "text": "有为"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cw3kpivxsrs0",
+                                    "created": 1696820618474,
+                                    "text": "假"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cw3kpivxw000",
+                                            "created": 1696820618474,
+                                            "text": "心分位"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cw3kpivxtfc0",
+                                            "created": 1696820618474,
+                                            "text": "心所分位"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cw3kpivxuc80",
+                                            "created": 1696820618474,
+                                            "text": "心心所分位"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cw3kpivxqxc0",
+                                            "created": 1696820618474,
+                                            "text": "心心所色分位"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cw3kpivxpr40",
+                                    "created": 1696820618474,
+                                    "text": "实"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cw3kpivxwdc0",
+                                            "created": 1696820618474,
+                                            "text": "色境"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cw3kpivxsfk0",
+                                                    "created": 1696820618474,
+                                                    "text": "性境"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cw3kpivxeao0",
+                                                            "created": 1696820618474,
+                                                            "text": "真"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cw3kpivxt5c0",
+                                                            "created": 1696820618474,
+                                                            "text": "似"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cw3kpivxt6o0",
+                                                    "created": 1696820618474,
+                                                    "text": "质影"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cw3kpivxok00",
+                                                            "created": 1696820618474,
+                                                            "text": "带质"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cw3kpivxp1k0",
+                                                                    "created": 1696820618474,
+                                                                    "text": "似带"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivxv6o0",
+                                                                            "created": 1696820618474,
+                                                                            "text": "觉境"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "cw3kpivxef40",
+                                                                                    "created": 1696820618474,
+                                                                                    "text": "聚集"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "cw3kpivxrl40",
+                                                                                            "created": 1696820618474,
+                                                                                            "text": "自然"
+                                                                                        },
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "cw3kpivxia80",
+                                                                                                    "created": 1696820618474,
+                                                                                                    "text": "合"
+                                                                                                },
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "data": {
+                                                                                                            "id": "cw3kpivxv8g0",
+                                                                                                            "created": 1696820618474,
+                                                                                                            "text": "无根"
+                                                                                                        },
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "data": {
+                                                                                                                    "id": "cw3kpivxr4g0",
+                                                                                                                    "created": 1696820618474,
+                                                                                                                    "text": "有情"
+                                                                                                                },
+                                                                                                                "children": []
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "data": {
+                                                                                                                    "id": "cw3kpivxq7s0",
+                                                                                                                    "created": 1696820618474,
+                                                                                                                    "text": "无情"
+                                                                                                                },
+                                                                                                                "children": []
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "data": {
+                                                                                                            "id": "cw3kpivxo2w0",
+                                                                                                            "created": 1696820618474,
+                                                                                                            "text": "有根"
+                                                                                                        },
+                                                                                                        "children": []
+                                                                                                    }
+                                                                                                ]
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "cw3kpivxktc0",
+                                                                                                    "created": 1696820618474,
+                                                                                                    "text": "杂聚"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            }
+                                                                                        ]
+                                                                                    },
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "cw3kpivxppc0",
+                                                                                            "created": 1696820618474,
+                                                                                            "text": "人为"
+                                                                                        },
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "cw3kpivy3c00",
+                                                                                                    "created": 1696820618475,
+                                                                                                    "text": "人群"
+                                                                                                },
+                                                                                                "children": []
+                                                                                            },
+                                                                                            {
+                                                                                                "data": {
+                                                                                                    "id": "cw3kpivy3kw0",
+                                                                                                    "created": 1696820618475,
+                                                                                                    "text": "人众"
+                                                                                                },
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "data": {
+                                                                                                            "id": "cw3kpivycrk0",
+                                                                                                            "created": 1696820618475,
+                                                                                                            "text": "资生"
+                                                                                                        },
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "data": {
+                                                                                                                    "id": "cw3kpivyfx40",
+                                                                                                                    "created": 1696820618475,
+                                                                                                                    "text": "间接"
+                                                                                                                },
+                                                                                                                "children": [
+                                                                                                                    {
+                                                                                                                        "data": {
+                                                                                                                            "id": "cw3kpivxyiw0",
+                                                                                                                            "created": 1696820618475,
+                                                                                                                            "text": "作具"
+                                                                                                                        },
+                                                                                                                        "children": []
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "data": {
+                                                                                                                            "id": "cw3kpivy3m80",
+                                                                                                                            "created": 1696820618475,
+                                                                                                                            "text": "产业"
+                                                                                                                        },
+                                                                                                                        "children": []
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "data": {
+                                                                                                                    "id": "cw3kpivy4s80",
+                                                                                                                    "created": 1696820618475,
+                                                                                                                    "text": "直接"
+                                                                                                                },
+                                                                                                                "children": []
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "data": {
+                                                                                                            "id": "cw3kpivy0nk0",
+                                                                                                            "created": 1696820618475,
+                                                                                                            "text": "观玩"
+                                                                                                        },
+                                                                                                        "children": []
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "cw3kpivybs00",
+                                                                                    "created": 1696820618475,
+                                                                                    "text": "相续"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "cw3kpivyiwg0",
+                                                                                            "created": 1696820618475,
+                                                                                            "text": "比量"
+                                                                                        },
+                                                                                        "children": []
+                                                                                    },
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "cw3kpivy3pc0",
+                                                                                            "created": 1696820618475,
+                                                                                            "text": "非量"
+                                                                                        },
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivyb600",
+                                                                            "created": 1696820618475,
+                                                                            "text": "梦境"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cw3kpivxyyo0",
+                                                                    "created": 1696820618475,
+                                                                    "text": "真带"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivyf0w0",
+                                                                            "created": 1696820618475,
+                                                                            "text": "非量"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivz37c0",
+                                                                            "created": 1696820618476,
+                                                                            "text": "比量"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cw3kpivylrk0",
+                                                            "created": 1696820618476,
+                                                            "text": "独影"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cw3kpivz1280",
+                                                                    "created": 1696820618476,
+                                                                    "text": "有质"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cw3kpivyj9k0",
+                                                                    "created": 1696820618476,
+                                                                    "text": "无质"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivynio0",
+                                                                            "created": 1696820618476,
+                                                                            "text": "假想色"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivyn140",
+                                                                            "created": 1696820618476,
+                                                                            "text": "病见色"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivypb40",
+                                                                            "created": 1696820618476,
+                                                                            "text": "极略色"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivz00o0",
+                                                                            "created": 1696820618476,
+                                                                            "text": "极迥色"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivyjh40",
+                                                                            "created": 1696820618476,
+                                                                            "text": "妄执色"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "cw3kpivz1q80",
+                                                                                    "created": 1696820618476,
+                                                                                    "text": "拟人"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "cw3kpivz02o0",
+                                                                                    "created": 1696820618476,
+                                                                                    "text": "拟体"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "cw3kpivyrds0",
+                                                                                    "created": 1696820618476,
+                                                                                    "text": "拟器"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cw3kpivyroo0",
+                                            "created": 1696820618476,
+                                            "text": "心识"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cw3kpivynyo0",
+                                                    "created": 1696820618476,
+                                                    "text": "心主"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cw3kpivyqvk0",
+                                                            "created": 1696820618476,
+                                                            "text": "本识"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cw3kpivylxs0",
+                                                            "created": 1696820618476,
+                                                            "text": "转识"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cw3kpivyl400",
+                                                                    "created": 1696820618476,
+                                                                    "text": "有覆染净"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cw3kpivz2680",
+                                                                    "created": 1696820618476,
+                                                                    "text": "三性染净"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivyz0w0",
+                                                                            "created": 1696820618476,
+                                                                            "text": "任运"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivyuyg0",
+                                                                            "created": 1696820618476,
+                                                                            "text": "计度"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cw3kpivyyvs0",
+                                                    "created": 1696820618476,
+                                                    "text": "心伴"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cw3kpivzcog0",
+                                                            "created": 1696820618477,
+                                                            "text": "遍行"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cw3kpivzd6g0",
+                                                            "created": 1696820618477,
+                                                            "text": "别境"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cw3kpivzgi00",
+                                                            "created": 1696820618477,
+                                                            "text": "净善"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cw3kpivzggg0",
+                                                                    "created": 1696820618477,
+                                                                    "text": "自性"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cw3kpivzhts0",
+                                                                    "created": 1696820618477,
+                                                                    "text": "世俗"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cw3kpivz6mg0",
+                                                            "created": 1696820618477,
+                                                            "text": "染恶"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cw3kpivzdfk0",
+                                                                    "created": 1696820618477,
+                                                                    "text": "根本"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cw3kpivzig00",
+                                                                    "created": 1696820618477,
+                                                                    "text": "流别"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivzc800",
+                                                                            "created": 1696820618477,
+                                                                            "text": "无记恶"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "cw3kpivzfc80",
+                                                                                    "created": 1696820618477,
+                                                                                    "text": "行相"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "cw3kpivzceg0",
+                                                                                    "created": 1696820618477,
+                                                                                    "text": "别体"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cw3kpivzgwo0",
+                                                                            "created": 1696820618477,
+                                                                            "text": "纯恶"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "cw3kpivza3c0",
+                                                                                    "created": 1696820618477,
+                                                                                    "text": "行相"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "cw3kpivz6lk0",
+                                                                                    "created": 1696820618477,
+                                                                                    "text": "别体"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cw3kpivzf340",
+                                                            "created": 1696820618477,
+                                                            "text": "不定"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cw3kpivzjog0",
+                            "created": 1696820618477,
+                            "text": "无为"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cw3kpivz7io0",
+                                    "created": 1696820618477,
+                                    "text": "似"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cw3kpivzbtc0",
+                                    "created": 1696820618477,
+                                    "text": "真"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cw3kpivzc800",
+                                            "created": 1696820618477,
+                                            "text": "圣解脱"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cw3kpivzng00",
+                                            "created": 1696820618477,
+                                            "text": "法实性"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
