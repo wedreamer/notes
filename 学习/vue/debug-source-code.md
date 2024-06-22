@@ -61,4 +61,26 @@ output: {
 }
 ```
 
+## 完整过程
+
+- vue 项目
+- 创建原生 html
+- 创建 vue 模板项目
+
+```bash
+mkdir vue-debug
+cd vue-debug
+git clone git@github.com:vuejs/vue.git
+cd vue
+pnpm i
+
+# raw project
+mkdir raw
+touch index.html
+
+# vue-project
+pnpm create vue@latest
+```
+
+
 TODO: 调试视频
