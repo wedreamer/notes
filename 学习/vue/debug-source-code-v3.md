@@ -1,26 +1,16 @@
-# debug vue3 源码(废弃)
-
-> 真惭愧啊, 写了半天是 vue2 的源码.....
+# debug vue3 源码
 
 ## 思路
 
-
-
 只要让 vue3 生成 sourcemap 代码, 而使用的项目模板, 比如 vue 官方提供的模板, 或者是原始 `index.html` 类似项目引用相关包或者库即可, 前者大概率是包共享, vue3 源码 build 之后 link 到全局, 在你的项目中去除官方 `vue 远程包` link 本地包即可
 
-## 相关调试配置及调整
+## 直接运行
 
-目前源码构建使用的是 `rollup`, 需要 `sourcemap`, 即在 `output` 相关配置上增加, 位置在 `vue/scripts/config.js`
-
-```ts
-output: {
-    file: opts.dest,
-    format: opts.format,
-    banner: opts.banner,
-    name: opts.moduleName || 'Vue',
-    exports: 'auto',
-    + sourcemap: true
-}
+```bash
+# 不用更改任何配置
+pnpm i 
+pnpm dev
+# 可以看到 packages/vue/dist/ 出现的产物, 及 map 文件
 ```
 
 ```json
@@ -52,14 +42,14 @@ output: {
         },
         // 原始 index.html 调试, 同上个原理一致
         {
-            "type": "msedge",
-            "request": "launch",
-            "name": "raw-html",
-            "url": "file:///C:/Users/14094/code/vue-debug/raw/index.html",
-            "webRoot": "${workspaceFolder}/raw",
-            "outFiles": [
-                "${workspaceFolder}/vue/**/*.js",
-            ]
+          "type": "msedge",
+          "request": "launch",
+          "name": "raw-html",
+          "url": "${workspaceFolder}/temp/index.html",
+          "webRoot": "${workspaceFolder}/temp",
+          "outFiles": [
+            "${workspaceFolder}/packages/**/*.js",
+          ]
         }
     ]
 }
@@ -72,19 +62,17 @@ output: {
 - 创建 vue 模板项目
 
 ```bash
-mkdir vue-debug
-cd vue-debug
-git clone git@github.com:vuejs/vue.git
-cd vue
+git clone git@github.com:vuejs/core.git
+cd core
 pnpm i
+pnpm dev
 
-# raw project
-mkdir raw
-touch index.html
+mkdir -p temp && touch temp/index.html
 
 # vue-project
 pnpm create vue@latest
 ```
-
+http://mongodbtoolchain.build.10gen.cc/toolchain/ubuntu2204/x86_64/latest
+http://mongodbtoolchain.build.10gen.cc/toolchain/ubuntu2204/x86_64/mongodbtoolchain-c8946f1ee23987ed32481a2f571d0ee38f86667b.tar.gz
 
 TODO: 调试视频
