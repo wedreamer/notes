@@ -149,6 +149,9 @@
 ## 平常的一些问题
 
 - es 资源占用
+- mongod build 的相关文档
+- openapi sdk 生成
+- 相关校验类打包到 sdk 包
 - oss 访问策略
 - fiber 任务切分粒度
 - fiber 如何实现中断和恢复
