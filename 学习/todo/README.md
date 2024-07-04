@@ -148,6 +148,8 @@
 
 ## 平常的一些问题
 
+- libuv
+- leveldb
 - es 资源占用
 - mongod build 的相关文档
 - openapi sdk 生成
