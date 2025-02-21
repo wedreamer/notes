@@ -196,7 +196,7 @@ static void ReadFileUtf8(const FunctionCallbackInfo<Value>& args) {
 }
 ```
 
-需要注意的是 `uv_fs_read` 这个方法是异步的, 为什么调用该方法的 `fs.readFileSync` 却是同步的呢? 这里就设计到异步的场景，对于此处调用该方法的代码, 他在调用该方法之后要收到结果只能一直等待, 这就是同步, 但是这个方法调用时, 对于事件循环来说却是异步的, 因为其调用之后如果文件读完会在之后的事件循环中得到该结果. 如果此处更改为异步该如何做, 后面我们可以看一下 `fs.read` 中异步是如何实现的.
+需要注意的是 `uv_fs_read` 这个方法是到底是同步还是异步的呢? 其实这个方法也可以同步也可以异步, 后续会有相关说明, 具体代码可以看 `node` 依赖的 `libuv` 代码, 为什么调用该方法的 `fs.readFileSync` 却是同步的呢? 这里就设计到同步异步的场景，对于此处调用该方法的代码, 他在调用该方法之后要收到结果只能一直等待直到结果返回, 这就是同步而且阻塞, 但是这个方法如果异步调用时, 对于事件循环来说却是异步的, 对于建设在事件循环之上的 `node` 平台更是异步, 因为其调用之后如果文件读完会在之后的事件循环中得到该结果. 如果此处更改为异步该如何做, 后面我们可以看一下 `fs.read` 中异步是如何实现的.
 
 #### tryReadSync
 
@@ -251,8 +251,8 @@ static void Read(const FunctionCallbackInfo<Value>& args) {
   char* buf = buffer_data + off;
   uv_buf_t uvbuf = uv_buf_init(buf, len);
 
-  // 异步调用
   if (argc > 5) {  // read(fd, buffer, offset, len, pos, req)
+    // 异步调用
     FSReqBase* req_wrap_async = GetReqWrap(args, 5);
     CHECK_NOT_NULL(req_wrap_async);
     FS_ASYNC_TRACE_BEGIN0(UV_FS_READ, req_wrap_async)
@@ -275,7 +275,7 @@ static void Read(const FunctionCallbackInfo<Value>& args) {
 }
 ```
 
-通过以上代码我们可以发现不管是同步调用还是异步调用, 都是通过 `Read` 函数实现的, 而同步异步之间调用的差别在于 `FSReqBase` 和 `FSReqWrapSync`, `AsyncCall` 和 `SyncCallAndThrowOnError` 以后同步之后因为能立即执行可以根据返回值判断是否出错, 背后也是通过 `libuv` 来完成文件调用的, 同时因为异步调用不是立即执行, 因此额外会有调用的一些参数及上下文信息. 异步调用的实现我们后续会讨论, 现在看一下同步调用的 `FSReqWrapSync` 与 `SyncCallAndThrowOnError`.
+通过以上代码我们可以发现不管是同步调用还是异步调用, 都是通过 `Read` 函数实现的, 而同步异步之间调用的差别在于 `FSReqBase` 和 `FSReqWrapSync`, `AsyncCall` 和 `SyncCallAndThrowOnError`. 同步之后因为能立即执行可以根据返回值判断是否出错, 背后也是通过 `libuv` 来完成文件调用的, 相对的因为异步调用不是立即执行, 因此额外会有调用的一些参数及上下文信息以及回调, 这个回调很重要. 异步调用的实现我们后续会讨论, 现在看一下同步调用的 `FSReqWrapSync` 与 `SyncCallAndThrowOnError`.
 
 ##### FSReqWrapSync
 
@@ -359,7 +359,7 @@ int SyncCallAndThrowIf(Predicate should_throw,
 int uv_fs_read(uv_loop_t* loop, uv_fs_t* req, uv_file file, const uv_buf_t bufs[], unsigned int nbufs, int64_t offset, uv_fs_cb cb)
 ```
 
-对应一下函数, 我们很容易知道 `FSReqWrapSync` 实例中 `req` 字段类型即为 `uv_fs_t`. 但是我们可能会疑惑 `loop` 为什么可以为 `nullptr`, 这是因为 `libuv` 中 `uv_fs_read` 函数实现时如果 `cb` 为空的话，就会使用 `uv__fs_read` 直接进行系统调用, 相关代码不再进行展示.
+对应一下函数, 我们很容易知道 `FSReqWrapSync` 实例中 `req` 字段类型即为 `uv_fs_t`. 但是我们可能会疑惑 `loop` 为什么可以为 `nullptr`, 这是因为 `libuv` 中 `uv_fs_read` 函数实现时如果 `cb` 为空的话，就会使用 `uv__fs_read` 直接进行系统调用, 相关代码不再进行展示, 读者可以自行查阅, 参考信息如下 `deps/uv/src/unix/fs.c:2032` -> `deps/uv/src/unix/fs.c:139` -> `deps/uv/src/unix/fs.c:1695` -> `deps/uv/src/unix/fs.c:516`.
 
 至此我们基本走了一遍 `fs.readFileSync` 的实现, 下面我们看一下 `fs.read` 的实现, 以及异步调用的实现.
 
@@ -806,4 +806,4 @@ void AfterInteger(uv_fs_t* req) {
 
 ## 总结
 
-我们使用一路向下的方式对 `readFileSync` 和 `readFile` 进行了相关内部分析, 其最终调用均为 `libuv` 的 `uv_fs_read` 函数, 由有没有 `cb` 决定是否直接系统调用即同步调用, 或者异步调用, 但是我们不能忽略掉每一层的相关抽象, 这些抽象是有很多作用的, 这对于 `node` 平台的构建有很大好处. 对于每层给出的抽象后行文再进行讨论, 同时我们遗留下了几个问题, 分别是内置模块加载及注册, 异步如何构建. 后续再进行行文进行讨论. 希望对大家理解 `node` 平台有所帮助.
+我们使用一路向下的方式对 `readFileSync` 和 `readFile` 进行了相关内部分析, 其最终调用均为 `libuv` 的 `uv_fs_read` 函数, 由有没有 `cb` 决定是否直接系统调用即同步调用, 或者异步调用, 但是我们不能忽略掉每一层的相关抽象, 这些抽象是有很多作用的, 这对于 `node` 平台的构建有较多考虑. 对于每层给出的抽象后行文再进行讨论, 同时我们遗留下了几个问题, 分别是内置模块加载及注册, 异步如何构建. 后续再进行行文进行讨论. 希望对大家理解 `node` 平台有所帮助.
